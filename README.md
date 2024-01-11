@@ -44,4 +44,4 @@ My BoardGameLocal System is a Spring-powered application tailored for a modern b
 
 10. Notification System:
 
-  -Implement a notification system for order updates, event reminders, and promotions.  
+  * Implement a notification system for order updates, event reminders, and promotions.  
