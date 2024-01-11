@@ -49,16 +49,16 @@ My BoardGameLocal System is a Spring-powered application tailored for a modern b
 ## MVP features 
 
 1. Game Catalog:
-    * Allow manager to edit the game catalog at will
+    * Allow manager to edit the game catalog at will (we do this by having at least a game and a shop entity created, we then add to the shop's game catalogue, an existing game from the database)
     
 2. Food and beverage catalog:
-    * Allow manager to edit the food and drinks menu at will
+    * Allow manager to edit the food and drinks menu at will (we do this by having at least a refreshment and a shop entity created, we then add to the shop's food/drink menu, an existing refreshment from the database)
 
 3. Event manager:
-    * Allow manager to add(host) new events to the at will
+    * Allow manager to add(host) new events to the at will (we do this by simply creating an entity with a POST command)
 
-4. Game editor:
-    * Allow manager to edit a game at will
+4. Join Event:
+    * Allow user to join an event (we do this by having at least a client and an event entity created, we then add to the client's event reservations, an existing event from the database)
   
-5. Food/Drinl editor:
-    * Allow manager to edit foods and drinks at will
+5. Client manager:
+    * Allow user to register as client (we do this by simply creating an entity with a POST command, the only requirements are that the username is unique and the password has at least 10 characters, at least a big and a small letter and at least a special character)
