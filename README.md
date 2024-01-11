@@ -6,7 +6,7 @@ My BoardGameLocal System is a Spring-powered application tailored for a modern b
 
 ## Business Requirements
 
-1. Product Catalog:
+1. Game Catalog:
 
    * The system must maintain a catalog of available board games, including details such as title, description, price, players required and game time.
   
@@ -44,4 +44,21 @@ My BoardGameLocal System is a Spring-powered application tailored for a modern b
 
 10. Notification System:
 
-    * Implement a notification system for order updates, event reminders, and promotions.  
+    * Implement a notification system for order updates, event reminders, and promotions.
+
+## MVP features 
+
+1. Game Catalog:
+    * Allow manager to edit the game catalog at will
+    
+2. Food and beverage catalog:
+    * Allow manager to edit the food and drinks menu at will
+
+3. Event manager:
+    * Allow manager to add(host) new events to the at will
+
+4. Game editor:
+    * Allow manager to edit a game at will
+  
+5. Food/Drinl editor:
+    * Allow manager to edit foods and drinks at will
